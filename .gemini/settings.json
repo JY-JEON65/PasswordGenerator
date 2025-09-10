@@ -1,0 +1,90 @@
+{
+  "mcpServers": {
+    "context7-mcp": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "@upstash/context7-mcp",
+        "--key",
+        "dd558c9a-d070-4989-aa6c-b99d44ab126a"
+      ]
+    },
+  "supabase-mcp": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "@supabase-community/supabase-mcp",
+        "--key",
+        "dd558c9a-d070-4989-aa6c-b99d44ab126a",
+        "--profile",
+        "fiscal-vulture-mQux3I"
+      ]
+    },
+   "playwright-mcp": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "@microsoft/playwright-mcp",
+        "--key",
+        "dd558c9a-d070-4989-aa6c-b99d44ab126a"
+      ]
+    },
+       "server-sequential-thinking": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "@smithery-ai/server-sequential-thinking",
+        "--key",
+        "dd558c9a-d070-4989-aa6c-b99d44ab126a",
+        "--profile",
+        "fiscal-vulture-mQux3I"
+      ]
+    },
+   "exa": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "exa",
+        "--key",
+        "dd558c9a-d070-4989-aa6c-b99d44ab126a",
+        "--profile",
+        "fiscal-vulture-mQux3I"
+      ]
+    },
+   "github": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "@smithery-ai/github",
+        "--key",
+        "dd558c9a-d070-4989-aa6c-b99d44ab126a",
+        "--profile",
+        "fiscal-vulture-mQux3I"
+      ]
+    }
+  }
+}
