@@ -1,6 +1,0 @@
-{
-  "name": "강력한 비밀번호 생성기 (고급 보안 및 관리)",
-  "description": "An advanced and highly secure password generator that creates strong, random passwords. It encrypts both the program name and password, updates existing entries, and saves them with a timestamp to your browser's local storage.",
-  "requestFramePermissions": [],
-  "prompt": ""
-}
