@@ -1,3 +1,7 @@
+const SUPABASE_URL = "https://khytzjktxmqdaftjfmsq.supabase.co";   // 본인 Supabase URL
+const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtoeXR6amt0eG1xZGFmdGpmbXNxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTQxOTc1NTAsImV4cCI6MjA2OTc3MzU1MH0.GXMY5r3cgivmcGBRULqDB5faBUTYR9jf3MHxt4dtfBc";  // 본인 anon key
+const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+
 document.addEventListener('DOMContentLoaded', () => {
     const loginForm = document.getElementById('login-form');
     const signupForm = document.getElementById('signup-form');
